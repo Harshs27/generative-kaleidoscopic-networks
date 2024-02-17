@@ -1,2 +1,2 @@
-# kaleidoscopic-sampling
-Official implementation of Generative Kaleidoscopic Networks
+## Generative Kaleidoscopic Networks
+Official implementation of the kaleidoscopic sampling algorithm 
