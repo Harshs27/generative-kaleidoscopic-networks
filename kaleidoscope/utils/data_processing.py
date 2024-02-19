@@ -231,7 +231,7 @@ def plot_loss_function_and_samples_NN(func, points, model_NN, title='', save_fna
 
 def plot_xyz(X, Y, Z, x_label='X', y_label='Y', z_label='Z', title=''):
     # fig = plt.figure(figsize=(5, 5))
-    ax = plt.figure(figsize=(20, 20)).add_subplot(projection='3d')
+    ax = plt.figure(figsize=(8, 8)).add_subplot(projection='3d')
     # Plot the 3D surface
     ax.plot_surface(X, Y, Z, edgecolor='royalblue', lw=0.5, alpha=0.7) #rstride=8, cstride=8)
     # Plot projections of the contours for each dimension.  By choosing offsets
@@ -245,7 +245,7 @@ def plot_xyz(X, Y, Z, x_label='X', y_label='Y', z_label='Z', title=''):
     plt.title(title, fontsize=30, y=0.97)
     ax.set_xlabel(x_label, fontsize=25, rotation=0, labelpad=15)
     ax.set_ylabel(y_label, fontsize=25, rotation=0, labelpad=15)
-    ax.set_zlabel(z_label, fontsize=25, rotation=0, labelpad=15)
+    ax.set_zlabel(z_label, fontsize=25, rotation=0, labelpad=-35)
     # plt.zlabel(z_label, fontsize=25)
     ax.tick_params(axis='x', labelsize=20)
     ax.tick_params(axis='y', labelsize=20)
@@ -255,7 +255,7 @@ def plot_xyz(X, Y, Z, x_label='X', y_label='Y', z_label='Z', title=''):
     fig.tight_layout()
     fig.subplots_adjust(top=1.0)
     return ax
-         
+
 
 def plot_loss_function_NN_2D(model_NN, grid_range, title='', SAVE=False, model_type='MLP', image_metadata=[1,1,2]):
     """Vary x and see the loss value. Gives an idea of 
