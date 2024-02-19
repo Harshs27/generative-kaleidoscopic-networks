@@ -1,4 +1,4 @@
-## Generative Kaleidoscopic Networks
+# Generative Kaleidoscopic Networks
 Expalin that we can create a Dataset Kaleidoscope. [Take some parts from abstract and explain here.]
 
 ## The 'Over-Generalization' Phenomenon
