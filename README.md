@@ -34,3 +34,6 @@ If you find this method useful, kindly cite the associated paper:
 
 @article{
 }   
+
+## Contact
+Email: harshshrivastava111@gmail.com
