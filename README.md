@@ -3,7 +3,7 @@
 
 `Kaleidoscopic Sampling`: If we learn a MLP to map from input $x\in\mathbb{R}^D$ to itself $f_\mathcal{N}(x)\rightarrow x$, the sampling procedure starts with a random input noise $z\in\mathbb{R}^D$ and recursively applies $f_\mathcal{N}(\cdots f_\mathcal{N}(z)\cdots )$. After a burn-in period duration, we start observing samples from the input distribution and we found that deeper the MLP, higher is the quality of samples recovered. 
 
-`Research`: Generative Kaleidoscopic Networks [arxiv](<https://arxiv.org/abs/xxx.xxx>)  
+`Research`: Generative Kaleidoscopic Networks (on [arxiv](<https://arxiv.org/abs/xxx.xxx>))
 
 ## The 'Over-generalization' Phenomenon
 `Over-generalization`: If the output units of neural networks are bounded, they tend to 'over-generalize' on the input data. That is, the output values over the entire input range are mapped close to the output range that were seen during learning, exhibiting a `many-to-one' mapping.
