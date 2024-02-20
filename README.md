@@ -29,8 +29,8 @@
 </p>
 
 ## Setup  
-The `setup.sh` file contains the conda environment details. run `bash setup.sh`    
-In case of dependencies conflict, one can alternatively use this command `conda env create --name kals --file=environment.yml`.  
+The setup.sh file contains the conda environment details. run `bash setup.sh`. In case of dependencies conflict, one can alternatively use this command `conda env create --name kals --file=environment.yml`.   
+The notebooks provide a demo for the synthetic and MNIST experiments.
 
 ## Citation
 If you find this method useful, kindly cite the associated paper:
