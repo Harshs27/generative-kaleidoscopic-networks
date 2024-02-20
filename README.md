@@ -3,7 +3,7 @@
 
 `Kaleidoscopic Sampling`: If we learn a MLP to map from input $x\in\mathbb{R}^D$ to itself $f_\mathcal{N}(x)\rightarrow x$, the sampling procedure starts with a random input noise $z\in\mathbb{R}^D$ and recursively applies $f_\mathcal{N}(\cdots f_\mathcal{N}(z)\cdots )$. After a burn-in period duration, we start observing samples from the input distribution and we found that deeper the MLP, higher is the quality of samples recovered. 
 
-`Research`: Generative Kaleidoscopic Networks (on [arxiv](<https://arxiv.org/abs/xxx.xxx>)). I am quite fascinated by Fractals and by their frequent occurrence in nature. As a kid, I used to play with a [kaleidoscope](<https://en.wikipedia.org/wiki/Kaleidoscope>) and this work is just a result of an attempt to mimic that effect using neural networks. 
+`Research`: Generative Kaleidoscopic Networks (on [arxiv](<https://arxiv.org/abs/2402.11793>)). I am quite fascinated by Fractals and by their frequent occurrence in nature. As a kid, I used to play with a [kaleidoscope](<https://en.wikipedia.org/wiki/Kaleidoscope>) and this work is just a result of an attempt to mimic that effect using neural networks. 
 
 ## The 'Over-generalization' Phenomenon in Neural Networks
 `Over-generalization`: If the output units of neural networks are bounded, they tend to 'over-generalize' on the input data. That is, the output values over the entire input range are mapped close to the output range that were seen during learning, exhibiting a `many-to-one' mapping.
@@ -32,8 +32,15 @@ In case of dependencies conflict, one can alternatively use this command `conda 
 ## Citation
 If you find this method useful, kindly cite the associated paper:
 
-@article{
-}   
+- `arxiv`:  
+@misc{shrivastava2024generative,  
+        title={Generative Kaleidoscopic Networks},   
+        author={Harsh Shrivastava},  
+        year={2024},  
+        eprint={2402.11793},  
+        archivePrefix={arXiv},  
+        primaryClass={cs.LG}  
+        }
 
 ## Contact
 Email: harshshrivastava111@gmail.com
