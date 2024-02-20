@@ -2,6 +2,9 @@
 `Dataset Kaleidoscope`: We discovered that the Deep ReLU networks (or Multilayer Perceptron architecture) demonstrate an 'over-generalization' phenomenon. In other words, the MLP learns a many-to-one mapping and this effect is more prominent as we increase the number of layers or depth of the MLP. We utilize this property of Deep ReLU networks to design a dataset kaleidoscope, termed as 'Generative Kaleidoscopic Networks'. 
 
 `Kaleidoscopic Sampling`: If we learn a MLP to map from input $x\in\mathbb{R}^D$ to itself $f_\mathcal{N}(x)\rightarrow x$, the sampling procedure starts with a random input noise $z\in\mathbb{R}^D$ and recursively applies $f_\mathcal{N}(\cdots f_\mathcal{N}(z)\cdots )$. After a burn-in period duration, we start observing samples from the input distribution and we found that deeper the MLP, higher is the quality of samples recovered. 
+<p align="center">
+<img src="https://github.com/Harshs27/generative-kaleidoscopic-networks/blob/main/saved_samples/kaleidoscopic_sampling.png" width=700 alt="kaleidoscopic_sampling"/>
+</p>
 
 `Research`: Generative Kaleidoscopic Networks (on [arxiv](<https://arxiv.org/abs/2402.11793>)). I am quite fascinated by Fractals and by their frequent occurrence in nature. As a kid, I used to play with a toy [kaleidoscope](<https://en.wikipedia.org/wiki/Kaleidoscope>) and this work is just a result of an attempt to mimic that effect using neural networks. 
 
