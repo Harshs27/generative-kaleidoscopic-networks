@@ -39,15 +39,13 @@ The notebooks provide a demo for the synthetic and MNIST experiments.
 ## Citation
 If you find this method useful, kindly cite the associated paper:
 
-- `arxiv`:  
-@misc{shrivastava2024generative,  
-        title={Generative Kaleidoscopic Networks},   
-        author={Harsh Shrivastava},  
-        year={2024},  
-        eprint={2402.11793},  
-        archivePrefix={arXiv},  
-        primaryClass={cs.LG}  
-        }
+- [arxiv](<https://arxiv.org/abs/2402.11793>):  
+@article{shrivastava2024generative,  
+  title={Generative Kaleidoscopic Networks},  
+  author={Shrivastava, Harsh},  
+  journal={arXiv preprint arXiv:2402.11793},  
+  year={2024}  
+}  
 
 ## Contact
 Email: harshshrivastava111@gmail.com
