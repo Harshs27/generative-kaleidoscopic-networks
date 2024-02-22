@@ -188,7 +188,7 @@ def get_kaleidoscopic_samples(
     # While using USE_CUDA_DEVICES, change USE_CUDA="cuda"
     device = torch.device(USE_CUDA) if USE_CUDA else torch.device("cpu") 
     print(f'Using "{device}" compute')
-    C, D, D = image_metadata
+    C, W, H = image_metadata
     if image_norm=='0to1':
         mean, std = 0.5, 0.5 
         low, high = 0, 1
@@ -196,9 +196,9 @@ def get_kaleidoscopic_samples(
         mean, std = 0, 1
         low, high = -1, 1
     if NOISE=='normal':
-        X_in = np.clip(np.random.normal(mean, std, size=[NUM_SAMPLES, C*D*D]), low, high)
+        X_in = np.clip(np.random.normal(mean, std, size=[NUM_SAMPLES, C*W*H]), low, high)
     elif NOISE=='uniform':
-        X_in = np.clip(np.random.uniform(low, high, size=[NUM_SAMPLES, C*D*D]), low, high)
+        X_in = np.clip(np.random.uniform(low, high, size=[NUM_SAMPLES, C*W*H]), low, high)
     X_in = dp.convertToTorch(np.array(X_in), req_grad=False, device=device)
     with torch.no_grad(): 
         model = model.to(device)
