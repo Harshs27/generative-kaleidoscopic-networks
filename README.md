@@ -39,7 +39,7 @@
 <img src="https://github.com/Harshs27/generative-kaleidoscopic-networks/blob/main/saved_samples/cifar_dogs_kaleidoscope.gif" width="400" alt="cifar_dogs_kaleidoscopic_samples"/>
 </p>
 
-- (CELEB-A) We randomly chose 1K celebrity images from CELEB-A dataset and did manifold learning with MLP $L=10, H=1000$. The output manifold is not smooth, so we can see many 'jumpy' transitions. Currently investigating a fix for this issue. The model used can be downloaded from [model-celeba-kaleiscope](<https://drive.google.com/file/d/1Gvqbell-xOs6foS1Y-q9lXBAjFW6UrMa/view?usp=sharing>)
+- (CELEB-A) We randomly chose 1K celebrity images from CELEB-A dataset and did manifold learning with MLP $L=10, H=1000$. The output manifold is not smooth, so we can see many 'jumpy' transitions. Currently investigating a fix for this issue. The model used can be downloaded from [model-celeba-kaleiscope](<https://drive.google.com/file/d/1Gvqbell-xOs6foS1Y-q9lXBAjFW6UrMa/view?usp=sharing>).
 <p align="center">
 <img src="https://github.com/Harshs27/generative-kaleidoscopic-networks/blob/main/saved_samples/celeba_1K_kaleidoscope.gif" width="400" alt="celeba_1K_kaleidoscopic_samples"/>
 </p>
