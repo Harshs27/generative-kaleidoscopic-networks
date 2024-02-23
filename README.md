@@ -27,19 +27,19 @@
 
 ## The MNIST Kaleidoscope
 
-- (Creating `MNIST Kaleidoscope`) Manifold learning is done on the MNIST data images with a MLP of $L=10, H=500$, intermediate 'ReLU' and final layer with 'Tanh' non-linearity. We start with input noise vector sampled from a Uniform distribution $~\mathcal{U}(-1,1)$. The images show the consecutive runs after applying learned MLP on the input noise. We note that after a certain 'burn-in' period, the procedure can converge at a digit and then it can remain stable throughout the future iterations as it has found a stable minima or step as defined in our analysis. For this reason, we add a slight noise, parameter $\epsilon=0.01$, at every sampling iteration to simulate a kaleidoscopic effect. The gif shows the output of randomly chosen subset of images and the seed is fixed throughout, so that there is one-to-one correspondence across sampling runs. One can take a digit and observe their evolution over the sampling iterations. 
+- `MNIST Kaleidoscope`: Manifold learning is done on the MNIST data images with a MLP of $L=10, H=500$, intermediate 'ReLU' and final layer with 'Tanh' non-linearity. We start with input noise vector sampled from a Uniform distribution $~\mathcal{U}(-1,1)$. The images show the consecutive runs after applying learned MLP on the input noise. We note that after a certain 'burn-in' period, the procedure can converge at a digit and then it can remain stable throughout the future iterations as it has found a stable minima or step as defined in our analysis. For this reason, we add a slight noise, parameter $\epsilon=0.01$, at every sampling iteration to simulate a kaleidoscopic effect. The gif shows the output of randomly chosen subset of images and the seed is fixed throughout, so that there is one-to-one correspondence across sampling runs. One can take a digit and observe their evolution over the sampling iterations. 
 <p align="center">
 <img src="https://github.com/Harshs27/generative-kaleidoscopic-networks/blob/main/saved_samples/mnist_kaleidoscope.gif" width="400" alt="mnist_kaleidoscopic_samples"/>
 </p>
 
 ## Dataset Kaleidoscopes
 
-- (**CIFAR**) We randomly chose 1K dog images from CIFAR-10 dataset and did manifold learning with MLP $L=10, H=2000$. The model used can be downloaded from [model-cifar-kaleiscope](<https://drive.google.com/file/d/1jf379KN0J1civB7qiSXAKRAwcp2yIfEY/view?usp=sharing>). [For usage, please refer the notebooks provided]
+- `CIFAR Kaleidoscope`: We randomly chose 1K dog images from CIFAR-10 dataset and did manifold learning with MLP $L=10, H=2000$. The model used can be downloaded from [model-cifar-kaleiscope](<https://drive.google.com/file/d/1jf379KN0J1civB7qiSXAKRAwcp2yIfEY/view?usp=sharing>). [For usage, please refer the notebooks provided]
 <p align="center">
 <img src="https://github.com/Harshs27/generative-kaleidoscopic-networks/blob/main/saved_samples/cifar_dogs_kaleidoscope.gif" width="400" alt="cifar_dogs_kaleidoscopic_samples"/>
 </p>
 
-- (**CELEB-A**) We randomly chose 1K celebrity images from CELEB-A dataset and did manifold learning with MLP $L=10, H=1000$. The output manifold is not smooth, so we can see many 'jumpy' transitions. Currently investigating a fix for this issue. The model used can be downloaded from [model-celeba-kaleiscope](<https://drive.google.com/file/d/1Gvqbell-xOs6foS1Y-q9lXBAjFW6UrMa/view?usp=sharing>).
+- `CELEB-A Kaleidoscope`: We randomly chose 1K celebrity images from CELEB-A dataset and did manifold learning with MLP $L=10, H=1000$. The output manifold is not smooth, so we can see many 'jumpy' transitions. Currently investigating a fix for this issue. The model used can be downloaded from [model-celeba-kaleiscope](<https://drive.google.com/file/d/1Gvqbell-xOs6foS1Y-q9lXBAjFW6UrMa/view?usp=sharing>).
 <p align="center">
 <img src="https://github.com/Harshs27/generative-kaleidoscopic-networks/blob/main/saved_samples/celeba_1K_kaleidoscope.gif" width="400" alt="celeba_1K_kaleidoscopic_samples"/>
 </p>
