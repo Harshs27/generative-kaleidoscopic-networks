@@ -1,5 +1,5 @@
 # Generative Kaleidoscopic Networks
-`Dataset Kaleidoscope`: We discovered that the Deep ReLU networks (or Multilayer Perceptron architecture) demonstrate an 'over-generalization' phenomenon. In other words, the MLP learns a many-to-one mapping and this effect is more prominent as we increase the number of layers or depth of the MLP. We utilize this property of Deep ReLU networks to design a dataset kaleidoscope, termed as 'Generative Kaleidoscopic Networks'. 
+`Dataset Kaleidoscope`: We discovered that the Deep ReLU networks demonstrate an 'over-generalization' phenomenon. In other words, the neural networks learn a many-to-one mapping and this effect is more prominent as we increase the number of layers or depth of the Multilayer Perceptron architecture . We utilize this property of neural networks to design a dataset kaleidoscope, termed as 'Generative Kaleidoscopic Networks'. 
 
 `Kaleidoscopic Sampling`: If we learn a MLP to map from input $x\in\mathbb{R}^D$ to itself $f_\mathcal{N}(x)\rightarrow x$, the sampling procedure starts with a random input noise $z\in\mathbb{R}^D$ and recursively applies $f_\mathcal{N}(\cdots f_\mathcal{N}(z)\cdots )$. After a burn-in period duration, we start observing samples from the input distribution and we found that deeper the MLP, higher is the quality of samples recovered. 
 <p align="center">
