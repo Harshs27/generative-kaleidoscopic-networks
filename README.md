@@ -34,7 +34,7 @@
 
 ## Dataset Kaleidoscopes
 
-- `CIFAR Kaleidoscope`: We randomly chose 1K dog images from CIFAR-10 dataset and did manifold learning with MLP $L=10, H=2000$. The model used can be downloaded from [model-cifar-kaleiscope](<https://drive.google.com/file/d/1jf379KN0J1civB7qiSXAKRAwcp2yIfEY/view?usp=sharing>). [For usage, please refer the notebooks provided]
+- `CIFAR Kaleidoscope`: We randomly chose 1K dog images from CIFAR-10 dataset and did manifold learning with MLP $L=10, H=2000$. The model used can be downloaded from [model-cifar-kaleiscope](<https://drive.google.com/file/d/1jf379KN0J1civB7qiSXAKRAwcp2yIfEY/view?usp=sharing>). For usage, please refer the [notebook](<https://github.com/Harshs27/generative-kaleidoscopic-networks/blob/main/kaleidoscopic_sampling_images.ipynb>) provided.
 <p align="center">
 <img src="https://github.com/Harshs27/generative-kaleidoscopic-networks/blob/main/saved_samples/cifar_dogs_kaleidoscope.gif" width="400" alt="cifar_dogs_kaleidoscopic_samples"/>
 </p>
